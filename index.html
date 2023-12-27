@@ -17,12 +17,6 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Favicon -->
     <link rel="shortcut icon" href="Favicom.ico" type="image/x-icon">
-    <!-- Fuentes de Google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Barra de Navegacion -->
@@ -37,7 +31,7 @@
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+              <a class="nav-link" href="#sobre-mi">Sobre mi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#proyectos">Proyectos</a>
@@ -84,10 +78,10 @@
             <p class="experiencia-titulo">Desarrollo Web</p>
             <p>He aplicado conocimientos adquiridos en cada curso que he tomado sobre Desarrollo Web en diversos proyectos, los cuales podrás visitar más abajo y conocer un poco más sobre mi trabajo.</p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">HTML</span>
-              <span class="badge text-bg-primary">CSS</span>
-              <span class="badge text-bg-primary">JavaScript</span>
-              <span class="badge text-bg-primary">Java</span>
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">Java</span>
             </div>
           </div>
           <!-- Habilidades -->
@@ -96,9 +90,9 @@
             <p class="experiencia-titulo">Habilidades</p>
             <p>Conocimiento de lenguajes de programación como Java, HTML, CSS, JavaScript y Python, esenciales para el desarrollo de softwares y aplicaciones. He desarrollado habilidades en gestión de proyectos para entregarlos en tiempo y condiciones solicitadas.</p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Desarrollo Web</span>
-              <span class="badge text-bg-primary">Codificación</span>
-              <span class="badge text-bg-primary">Organización</span>
+              <span class="badge">Desarrollo Web</span>
+              <span class="badge">Codificación</span>
+              <span class="badge">Organización</span>
             </div>
           </div>
           <!-- Estudios -->
@@ -107,8 +101,8 @@
             <p class="experiencia-titulo">Estudios</p>
             <p>Me encuentro en constante aprendizaje y adquiriendo nuevas habilidades técnicas. He desarrollado mis conocimientos durante la cursada de los programas de Codo a Codo 4.0, Argentina Programa 4.0 y freeCodeCamp.</p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Codo a Codo</span>
-              <span class="badge text-bg-primary">Arg Programa 4.0</span>
+              <span class="badge">Codo a Codo</span>
+              <span class="badge">Arg Programa 4.0</span>
             </div>
           </div>
         </div>
@@ -117,17 +111,17 @@
 
     <!-- Proyectos -->
     <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
-      <h2 class="seccion-titulo text-black">Mis Proyectos</h2>
+      <h2 class="seccion-titulo text-black">MIS PROYECTOS</h2>
       <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
       <!-- Galeria de Proyectos -->
       <div class="container text-center proyectos-contenedor">
         <div class="row">
           <!-- Proyecto 1 -->
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-4">
             <div class="proyecto">
               <img src="imagenes/proyecto1.png" alt="Proyecto 1">
               <div class="overlay d-flex flex-column align-items-center">
-                <p> Proyecto 1</p>
+                <p>CRUD en Java</p>
                 <div class="d-flex">
                   <a href="https://github.com/aagusvelazquez/codoacodoProyectoFinal" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
@@ -140,11 +134,11 @@
             </div>
           </div>
           <!-- Proyecto 2 -->
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-4">
             <div class="proyecto">
-              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 2">
               <div class="overlay">
-                <p> Proyecto 2</p>
+                <p>Conf BsAs</p>
                 <div class="d-flex">
                   <a href="https://github.com/aagusvelazquez/ConfBsAs" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
@@ -156,10 +150,24 @@
               </div>
             </div>
           </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 3">
+              <div class="overlay d-flex flex-column align-items-center">
+                <p>Conf BsAs Web Dinámica</p>
+                <div class="d-flex">
+                  <a href="https://github.com/aagusvelazquez/CAC23549Grupo2" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <a href="https://github.com/aagusvelazquez"  target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info">
+        <button type="button" class="btn btn-mas">
           Ver más proyectos
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
@@ -168,12 +176,17 @@
 
     <!-- Certificaciones -->
     <section id="certificaciones" class="certificaciones justify-content-start">
-      <h2 class="seccion-titulo text-black">Certificaciones</h2>
+      <h2 class="seccion-titulo text-black">CERTIFICACIONES</h2>
       <div class="card">
         <div class="card-header">
           Más recientes
         </div>
         <ul class="list-group list-group-flush">
+          <a href="https://drive.google.com/file/d/1BKrHoo3LzBkoAsK7d8q6JVfkT4_rQXmw/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Habilidades Digitales, Habilidades Blandas - BA Multiplica 2023
+            </li>
+          </a>
           <a href="https://drive.google.com/file/d/1J5HPhvSzg0AIf8vUElBl2KstRALAPtP1/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             <li class="list-group-item">
               Procesamiento de Datos con Python - Academia TICMAS - Arg Programa 2023
@@ -192,7 +205,7 @@
         </ul>
       </div>
       <a href="https://drive.google.com/drive/folders/1unXUrgQZQHYNFllImxTQLCABfp3PRp8u" target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info">
+        <button type="button" class="btn btn-mas">
           Ver más certificaciones
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
@@ -204,13 +217,13 @@
       <div class="container">
         <div id="contacto" class="container text-center rectangulo d-flex justify-content-evenly">
           <div class="row">
-            <div class="col-12 col-md-4 seccion-titulo">
+            <div class="col-12 col-md-3 seccion-titulo">
               ¡Hablemos!
             </div>
-            <div class="col-12 col-md-4 descripcion">
-              Contactame para iniciar tu proyecto de Desarrollo Web y haré que tu visión se vuelva realidad.
+            <div class="col-12 col-md-6 descripcion">
+              Contactame para iniciar tu proyecto de Desarrollo Web<br> y haré que tu visión se vuelva realidad.
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
               <a href="mailto:velazquezagustinamailen@gmail.com">
                 <button type="button">
                   Contacto
